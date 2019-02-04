@@ -3,7 +3,7 @@
 const {PubSub} = require('@google-cloud/pubsub');
  
 const publisher = new PubSub()
-                .topic("testTopic")
+                .topic("jsonTopic")
                 .publisher();
  
 exports.publish = (req, res) => {
